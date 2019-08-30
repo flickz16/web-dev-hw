@@ -1,0 +1,4 @@
+The web is the vast collection of information connected on the Internet while the Internet is the network.
+The Internet functions through a network of networks that connects partcipates to the Internet. Each one has a unqiue address called a IP.
+A directory organizes folders and files. They can also contain other directories or subdirectories. It's relationship to files is it organizes them into folders in a hierarchical structure, like a tree.
+Version control systems are important because it allows you to see what was changed on the file for each new verision and specifies the reason for the change. It also makes collaborating and sharing easier.
