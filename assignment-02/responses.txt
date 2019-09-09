@@ -1,0 +1,7 @@
+Data travels on the internet by electricity. Bandwidth and latency effect the capacity and how fast the bits are sent.
+
+The DNS finds the IP address for websites we visit. DNS associates the names with the corresponding IP addresses.
+
+A cookie is a small file stored on the user's computer. It helps websites remember who you are.
+
+ The protocol, the domain name and the path.
