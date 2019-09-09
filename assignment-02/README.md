@@ -9,6 +9,6 @@ I decided to take this course because coding has always intrigued me and it seem
 
 [ESPN Homepage](https://www.espn.com/)
 
-[My Responses File](./respones.txt)
+[My Responses File](./responses.txt)
 
 ![My Screenshot](./images/screenshot.png)
