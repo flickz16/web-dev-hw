@@ -1,0 +1,54 @@
+h1 {
+  color: cyan;
+  border-style: solid;
+  border-width: 2px;
+  border-color: silver;
+  height: 75px;
+  width: 50%;
+}
+
+p {
+    border-style: solid;
+    border-width: 2px;
+    border-color: gold;
+    background: #f1f1f1;
+}
+
+strong, em {
+    border-style: solid;
+    border-width: 2px;
+    border-color: tomato;
+}
+
+img {
+  opacity: 0.5;
+  position: relative;
+}
+
+.square {
+  width: 50%;
+}
+
+#pink {
+    background-color: pink;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+    padding: 10px;
+    background: #373E42;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+/*
+Mess around with colors more.
+*/
