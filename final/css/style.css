@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Caveat&display=swap');
+html {
+  height: inherit;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+menu {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 200%;
+  background-color: lightgrey;
+}
+
+h1::first-letter {
+  font-family: 'Alex Brush', cursive;
+  font-size: 200%;
+}
+
+h2 {
+  font-family: 'Alex Brush', cursive;
+  color: #FFF;
+  font-size: 250%;
+  text-align: center;
+}
+
+h3 {
+  color: #FFF;
+  float: left;
+  font-family: 'Caveat', cursive;
+  font-size: 150%;
+}
+
+#site-links {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: 'Caveat', cursive;
+}
+
+#site-links .menu-item {
+  background-color: #383838;
+  padding: .5em 1em;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  border: 1px solid #555;
+}
+
+#site-links .menu-item:hover {
+  background-color: #F5F5F5;
+  color: grey;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-style: wavy;
+  font-weight: 900;
+}
+
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+
+}
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #383838;
+  z-index: 5;
+}
+
+#site-links .dropdown-content a {
+  color: #FFF;
+}
+
+#site-links .dropdown-content a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-style: wavy;
+  font-weight: 900;
+}
+
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: #F5F5F5;
+}
+
+#social-links {
+  display: block;
+  float: right;
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  background-color: #383838;
+ }
+
+#social-links .social-item {
+  margin: 0px 5px;
+}
+
+#social-links img {
+  width: 20px;
+  height: 20px;
+  opacity: .5;
+}
+
+#articles {
+  color: white;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 115%;
+  border: 5px solid #FFF;
+  border-radius: 50px 50px 50px 50px;
+  line-height: 200%;
+}
+
+#articles a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-weight: 900;
+}
+
+.background{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  overflow: auto;
+  display: block;
+  text-align: center;
+  opacity: 40%;
+}
+
+footer {
+  color: #FFF;
+  text-align: center;
+  font-family: cursive;
+  font-size: 50%;
+  bottom: 0;
+  right: 42%;
+  height: 20px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  display: inline-grid;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-family: 'Caveat', cursive;
+  background-color: lightgrey;
+  font-size: 125%;
+}
+
+div.profile {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  color: #FFF;
+  font-family: 'Caveat', cursive;
+}
